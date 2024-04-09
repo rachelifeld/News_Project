@@ -18,7 +18,6 @@ namespace News_Project.DAL
             {
                 items = FetchFeedFromUrl();
                 HttpContext.Current.Cache.Insert(CacheKey, items, null, DateTime.Now.AddMinutes(10), TimeSpan.Zero);
-                // Cache for 10 minutes, adjust the duration as needed
             }
 
             return items;
