@@ -11,7 +11,7 @@ namespace News_Project
 {
 
 
-    public partial class Default
+    public partial class WebFormNews1
     {
 
         /// <summary>
@@ -24,21 +24,12 @@ namespace News_Project
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// btnGetFeed control.
+        /// Repeater1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnGetFeed;
-
-        /// <summary>
-        /// feedItemsPlaceHolder control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder feedItemsPlaceHolder;
+        protected global::System.Web.UI.WebControls.Repeater Repeater1;
     }
 }

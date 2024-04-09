@@ -1,0 +1,74 @@
+﻿/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #007bff;
+}
+
+/* News list styles */
+.news-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto; /* Center the list horizontally */
+    max-width: 800px; /* Limit the width for responsiveness */
+}
+
+.news-item {
+    margin: 10px;
+    width: calc(33% - 20px); /* Apply flexbox sizing with margins */
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Prevent content overflow */
+    transition: all 0.2s ease-in-out; /* Smooth transitions */
+}
+
+    .news-item:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .news-item h3 {
+        padding: 15px;
+        margin: 0;
+        font-size: 1.2em;
+        color: #333;
+        cursor: pointer; /* Indicate clickable headlines */
+    }
+
+.news-content {
+    padding: 15px;
+}
+
+    .news-content p {
+        margin-bottom: 10px;
+    }
+
+    .news-content a {
+        color: #007bff;
+        text-decoration: none; /* Remove underline */
+        transition: color 0.2s ease-in-out;
+    }
+
+        .news-content a:hover {
+            color: #0056b3;
+        }
+
+.news-grid {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust these values as needed */
+    grid-gap: 10px; /* Adjust spacing between items */
+}
+
