@@ -2,6 +2,8 @@ News Project
 Overview
 
 This project is a simple ASP.NET Web Forms application that retrieves news feed items from Google News and displays them on a webpage.
+
+
 Project Structure
 DAL (Data Access Layer)
 
