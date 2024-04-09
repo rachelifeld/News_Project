@@ -39,4 +39,5 @@ Notes
     The RssFeedReader.cs class caches the retrieved news feed items for 10 minutes to improve performance. You can adjust the cache duration as needed.
     The Google News feed URL used in the project can be modified to retrieve news from a different source.
 ![image](https://github.com/rachelifeld/News_Project/assets/92298907/2de6ec7b-5c9e-47ee-b097-45974d4ecd09)
+![image](https://github.com/rachelifeld/News_Project/assets/92298907/9ab1a814-5b61-43d4-8a75-e6e7f72becc0)
 
