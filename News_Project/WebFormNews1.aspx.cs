@@ -31,7 +31,6 @@ namespace News_Project
                 listLink.Add(item.Link);
             }
 
-            // Bind the lists to the repeater control
             Repeater1.DataSource = items;
             Repeater1.DataBind();
         }

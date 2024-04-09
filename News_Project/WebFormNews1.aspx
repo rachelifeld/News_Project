@@ -9,26 +9,24 @@
     <link rel="stylesheet" type="text/css" href="Styles/StyleNews.css">
     <script src="Scripts/news.js"></script>
     <h1>News For You</h1>
+ 
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div class="grid-container">
             <asp:Repeater ID="Repeater1" runat="server">
-  <ItemTemplate>
-    <div class="news-grid"> 
-        <div class="news-item">
-        <a href="javascript:void(0);" onclick="toggleContent(this)">
-          <h3><%# Eval("Title") %></h3>
-        </a>
-        <div class="news-content" style="display: none;">
-          <p><%# Eval("Description") %></p>
-          <a href='<%# Eval("Link") %>'>Read more</a>
-        </div>
-      </div>
-    </div>
-  </ItemTemplate>
-</asp:Repeater>
-
+                <ItemTemplate>
+                    <div class="news-item">
+                        <a href="javascript:void(0);" onclick="toggleContent(this)">
+                            <h3><%# Eval("Title") %></h3>
+                        </a>
+                        <div class="news-content" style="display: none;">
+                            <p><%# Eval("Description") %></p>
+                            <a href='<%# Eval("Link") %>'>Read more</a>
+                        </div>
+                    </div>
+                </ItemTemplate>
+            </asp:Repeater>
         </div>
     </form>
 </body>
