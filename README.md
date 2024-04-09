@@ -28,7 +28,7 @@ Dependencies
 
 Instructions
 
-    Clone or download the project repository.
+    Clone the project repository.
     Open the project in Visual Studio or your preferred ASP.NET development environment.
     Ensure you have ASP.NET Web Forms configured and running.
     Run the project (WebFormNews1.aspx).
